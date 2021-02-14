@@ -1,0 +1,11 @@
+INPUT_FILE = input.txt
+OUTPUT_FILE = output.txt
+COUNT_WORKERS = 4
+WORKER1 = Reader
+WORKER2 = Executor
+WORKER3 = Executor
+WORKER4 = Workers.IO.BurkovWriter.WriterManager
+CONFIG1 = configs\\myConfigs\\ReaderConfig.txt
+CONFIG2 = configs\\myConfigs\\RleConfigCompare.txt
+CONFIG3 = configs\\myConfigs\\RleConfigRecovery.txt
+CONFIG4 = configs\\otherConfigs\\writercfg.txt

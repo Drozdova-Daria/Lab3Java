@@ -1,0 +1,9 @@
+INPUT_FILE = input.txt
+OUTPUT_FILE = output.txt
+COUNT_WORKERS = 3
+WORKER1 = Reader
+WORKER2 = Workers.BurkovExecutor.CaseSwitcherManager
+WORKER3 = Writer
+CONFIG1 = configs\\myConfigs\\ReaderConfig.txt
+CONFIG2 = configs\\otherConfigs\\executorcfg.txt
+CONFIG3 = configs\\myConfigs\\WriterConfig.txt
